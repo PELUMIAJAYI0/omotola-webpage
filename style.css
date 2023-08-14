@@ -9,9 +9,6 @@
 body{
   background: #FFD0A5;
   font-family: 'Dancing Script', cursive;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   min-height: 100vh;
 }
 
@@ -20,7 +17,10 @@ nav{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
- 
+}
+.navbar:hover{
+    border-radius: 100% 0% 100% 0% / 20% 80% 20% 80% ;
+    transition: 1s;
 }
 
 .navbar {
@@ -28,11 +28,11 @@ nav{
   position: fixed;
   top: 0;
   width: 100%;
+  border-radius: 15px;
 }
 
 img.logo{
    height: 75px;
-   /* padding-left: 100px; */
 }
 nav ul{
   flex-direction: row;
@@ -52,6 +52,7 @@ nav ul{
     background: #FFD0A5;
     transition: 1s;
     font-size: 20px;
+    border-radius: 15px 50px;
 }
 .checkbtn{
     font-size: 30px;
@@ -106,9 +107,6 @@ align-items: center;
     text-transform: uppercase;
 }
 .about-section h3{
-    /* background-color: #FFF1ED; */
-    /* border-radius: 15px 50px;
-    display: inline-block; */
     padding: 5px;
     margin-left: 40px;
     line-height: 1.5;
@@ -117,6 +115,9 @@ align-items: center;
     font-size: 30px;
     transition: 1s;
 }
+.education-section{
+    padding-top: 10px;
+}
 .education-section h1{
      background-color: #FFF1ED;
     border-radius: 15px 50px 30px; 
@@ -124,6 +125,10 @@ align-items: center;
     padding: 10px;
     margin-left: 60px;
     text-transform: uppercase;
+}
+.education-section h1:hover{
+     font-size: 30px;
+    transition: 1s;
 }
 .education-entry h3{
     padding-left: 90px;
@@ -183,20 +188,10 @@ align-items: center;
 }
 
 .skill{
-    padding: 30px 1%;   
-    /* position: relative */
+    padding: 30px 1%;  
     display: flex;
     flex-direction: column;
 }
-/* #skill::after{
-    content: '';
-    width: 30%;
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-    left: 35%;
-} */
 .sub-title{
     background-color: #FFF1ED;
     border-radius: 15px 50px;
@@ -204,6 +199,10 @@ align-items: center;
     padding: 10px;
     text-transform: uppercase;
     margin-left: 60px;
+}
+.sub-title:hover{
+     font-size: 30px;
+    transition: 1s;
 }
 .skill .skill-cols{
     display: grid;
@@ -258,6 +257,10 @@ align-items: center;
     text-transform: uppercase;
     margin: 10px 0;
 }
+.newsletter-container h2:hover{
+     font-size: 30px;
+    transition: 1s;
+}
 
 .newsletter-container p {
     font-size: 24px;
@@ -309,6 +312,10 @@ align-items: center;
     text-transform: uppercase;
     margin-left: 250px;
 }
+.contact-section-container h2:hover{
+     font-size: 30px;
+    transition: 1s;
+}
 .contact-section-container p{
      font-size: 25px;
 }
@@ -343,13 +350,6 @@ align-items: center;
   margin-top: 20px;
   border-radius: 100% 0% 100% 0% / 0% 81% 19% 100% ;
 }
-
-.footer-section.container {
-  /* max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px; */
-}
-
 .footer-content {
   display: flex;
   justify-content: space-between;
