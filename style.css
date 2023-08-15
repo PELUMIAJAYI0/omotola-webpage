@@ -4,7 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-        scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 body{
   background: #FFD0A5;
@@ -71,32 +71,27 @@ nav ul{
 }
 
 .first-image-div{
-width: 50%;
+    width: 50%;
 }
 
 .first-image-div img{
-width: 70%;
-margin-left: 300px;
+    width: 70%;
+    margin-left: 300px;
 }
-
-
 .first-section{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px;
 }
 .first-section-div h1{
     margin-bottom: 10px;
     margin-top: 30px;
 }
-
-
 .home-section{
-  display: flex;
-justify-content: space-between;
-align-items: center;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .about-section h1{
     background-color: #FFF1ED;
@@ -119,7 +114,7 @@ align-items: center;
     padding-top: 10px;
 }
 .education-section h1{
-     background-color: #FFF1ED;
+    background-color: #FFF1ED;
     border-radius: 15px 50px 30px; 
     display: inline-block;
     padding: 10px;
@@ -127,7 +122,7 @@ align-items: center;
     text-transform: uppercase;
 }
 .education-section h1:hover{
-     font-size: 30px;
+    font-size: 30px;
     transition: 1s;
 }
 .education-entry h3{
@@ -156,7 +151,6 @@ align-items: center;
     padding: 10px;
     margin-left: 100px;
 }
-
 .education-section-div-2 {
     margin-top: 20px;
     display: flex;
@@ -165,7 +159,6 @@ align-items: center;
     align-items: center;
     padding: 0 20px;
 }
-
 .education-section-div-2 h2 {
     background-color: #FFF1ED;
     border-radius: 15px 50px;
@@ -174,19 +167,16 @@ align-items: center;
     font-size: 24px;
     margin: 10px 0;
 }
-
 .education-section-div-2 ul {
     padding-left: 0;
     margin: 10px 0;
 }
-
 .education-section-div-2 li {
     padding-left: 0;
     margin-left: 20px;
     line-height: 1.5;
     font-size: 18px;
 }
-
 .skill{
     padding: 30px 1%;  
     display: flex;
@@ -201,7 +191,7 @@ align-items: center;
     margin-left: 60px;
 }
 .sub-title:hover{
-     font-size: 30px;
+    font-size: 30px;
     transition: 1s;
 }
 .skill .skill-cols{
@@ -216,7 +206,6 @@ align-items: center;
     justify-content: space-between;
 }
 .skill .skill-cols .skill-item .skill-name-per h2{
-    /* font-weight: 700; */
     font-style: italic;
     font-size: 20px;
 }
@@ -244,11 +233,9 @@ align-items: center;
     align-items: center;
     padding: 20px 0;
 }
-
 .newsletter-container {
     text-align: center;
 }
-
 .newsletter-container h2 {
     background-color: #FFF1ED;
     border-radius: 15px 50px;
@@ -258,22 +245,19 @@ align-items: center;
     margin: 10px 0;
 }
 .newsletter-container h2:hover{
-     font-size: 30px;
+    font-size: 30px;
     transition: 1s;
 }
-
 .newsletter-container p {
     font-size: 24px;
     margin-bottom: 20px;
 }
-
 .mc-field-group {
     padding: 0 20px;
     font-size: 18px;
     max-width: 300px;
     margin: 0 auto;
 }
-
 .button {
     background-color: #FFF1ED;
     color: #374B73;
@@ -285,17 +269,14 @@ align-items: center;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s, transform 0.3s;
 }
-
 .button:hover {
     background-color: #374B73;
     color: #FFF1ED;
     transform: translateY(-5px);
 }
-
 .button:active {
     transform: translateY(0);
 }
-
 .contact-section{
     display: flex;
     flex-direction: column;
@@ -313,11 +294,11 @@ align-items: center;
     margin-left: 250px;
 }
 .contact-section-container h2:hover{
-     font-size: 30px;
+    font-size: 30px;
     transition: 1s;
 }
 .contact-section-container p{
-     font-size: 25px;
+    font-size: 25px;
 }
 .contact-icons{
     display: flex;
@@ -331,12 +312,11 @@ align-items: center;
 }
 .contact-icons a:hover{
     font-size: 40px;
-     background-color: #374B73;
+    background-color: #374B73;
     color: #FFD0A5;
     transition: 1s;
     transform: translateX(-7px);
-    border-radius: 15px ;
-
+    border-radius: 15px;
 }
 .contact-icons a:active{
     transform: translateX(-1px);
@@ -356,23 +336,19 @@ align-items: center;
   align-items: flex-start;
   margin-bottom: 30px;
 }
-
 .footer-logo img {
   height: 200px;
 }
-
 .footer-navigation ul {
   list-style: none;
   padding: 0;
  font-size: 30px;
 }
-
 .footer-navigation li {
   margin-bottom: 10px;
   padding-bottom: 5px;
   margin-top: 10px;
 }
-
 .footer-navigation a {
   color: #374B73;
   text-decoration: none;
@@ -385,7 +361,6 @@ align-items: center;
     transition: 1s;
     border-radius: 15px 50px;
 }
-
 .footer-social a {
   font-size: 24px;
   margin-right: 15px;
@@ -393,7 +368,7 @@ align-items: center;
 }
 .footer-social a:hover{
     font-size: 40px;
-     background-color: #374B73;
+    background-color: #374B73;
     color: #FFD0A5;
     transition: 1s;
     transform: translateY(-7px);
@@ -467,29 +442,23 @@ align-items: center;
         top: 80px;
         transition: all 0.5s;
     }
-
     .navbar ul.show {
         left: 0;
     }
-
     .navbar-links {
         margin: 10px 0;
     }
-
     .checkbtn {
         display: block;
     }
-
     .home-section {
         flex-direction: column;
         align-items: center;
     }
-
     .first-image-div img {
         width: 90%;
         margin-left: 0;
     }
-
     .about-section h1,
     .education-section h1,
     .sub-title,
@@ -497,7 +466,6 @@ align-items: center;
     .contact-section-container h2 {
         margin-left: 10px;
     }
-
     .education-entry p,
     .education-entry h3,
     .education-section-div-2 li,
@@ -507,16 +475,13 @@ align-items: center;
         font-size: 18px;
         padding-left: 20px;
     }
-
     .footer-content {
         flex-direction: column;
         align-items: center;
     }
-
     .footer-logo img {
         height: 150px;
     }
-
     .footer-navigation ul {
         font-size: 20px;
     }
