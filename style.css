@@ -316,7 +316,8 @@ nav ul{
     color: #FFD0A5;
     transition: 1s;
     transform: translateX(-7px);
-    border-radius: 15px;
+    border-radius: 40px;
+    border-bottom: 40px;
 }
 .contact-icons a:active{
     transform: translateX(-1px);
